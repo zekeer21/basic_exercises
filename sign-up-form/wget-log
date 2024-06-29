@@ -1,16 +1,0 @@
---2024-06-28 20:10:02--  https://unsplash.com/photos/25xggax4bSA/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzE5NTY5MTIwfA
-Resolving unsplash.com (unsplash.com)... 151.101.129.181, 151.101.1.181, 151.101.65.181, ...
-Connecting to unsplash.com (unsplash.com)|151.101.129.181|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb [following]
---2024-06-28 20:10:03--  https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb
-Resolving images.unsplash.com (images.unsplash.com)... 146.75.22.208, 2a04:4e42:75::720
-Connecting to images.unsplash.com (images.unsplash.com)|146.75.22.208|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 1035149 (1011K) [image/jpeg]
-Saving to: ‘download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzE5NTY5MTIwfA’
-
-               download?ixid=   0%[                                                  ]       0  --.-KB/s               download?ixid=M3wxMjA3fDB8MXx 100%[=================================================>]   1011K  5.96MB/s    in 0.2s    
-
-2024-06-28 20:10:03 (5.96 MB/s) - ‘download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzE5NTY5MTIwfA’ saved [1035149/1035149]
-
