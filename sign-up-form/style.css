@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: Norse-bold;
-    src: url("./Norse-Bold.otf") format("truetype");
+    src: url("./src/Norse-Bold.otf") format("truetype");
 }
 
 body{
@@ -97,7 +97,7 @@ button:active{
 
 .bg-container{
     position: absolute;
-    background: url("./bg.jpg");
+    background: url("./src/bg.jpg");
     height: 100%;
     width: 40%;
 }
@@ -122,7 +122,7 @@ a{
     width: 5vw;
 }
 .logo-container > p{
-    position: relative;
+    position: absolute;
     top: 2rem;
     left: 50%;
     color: white;
