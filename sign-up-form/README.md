@@ -5,3 +5,4 @@ This repository subfolder is intended for project called Signup Form as a part o
 
 ## Screenshot
 
+![Screenshot](snippet.PNG)
