@@ -8,7 +8,7 @@
 
 .main-container{
     display: grid;
-    grid-template-columns: 20% 80% 1fr;
+    grid-template-columns: 20% 80%;
 }
 
 .sidebar{
@@ -34,7 +34,6 @@
     align-items: flex-start;
     margin: 1rem;
     font-size: 15px;
-
 }
 .icon{
     display: flex;
@@ -55,7 +54,7 @@
 
 .content{
     display: grid;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 20% 80%;
 }
 
 .main-cards{
@@ -107,12 +106,11 @@
 
 .bottom-header{
     /* background-color: blue; */
-    height: 50%; /* remove after*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* padding: 10px; */
+
 }
 
 .welcome{
@@ -145,7 +143,107 @@
     font-size: 15px;
     cursor: pointer;
 }
+
 .buttons button:hover{
     transition: all 0.3s;
     background-color: #60a5fa;
+}
+
+.main-cards{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 10px 10px 0 10px;
+}
+
+.project-cards{
+    /* grid-column: 1 / span 2; */
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+.project-cards > p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 50%);
+    gap: 10px;
+}
+
+.card{
+    background-color: white;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 20%;
+}
+
+.card p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card p:nth-child(2){
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    height: 100%;
+}
+
+/* .announcements{
+    margin-left: 25px;
+    display: grid;
+    grid-template-rows: 10% 50% 40%;
+} */
+
+.div-cards{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+/* .announcements .head-title{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    grid-row: 1;
+} */
+
+.announce{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.announce .title{
+    font-size: 12px;
+}
+
+.announce .text{
+    font-size: 10px;
+    font-weight: 300;
+    color: grey;
+}
+
+.divider{
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.trend{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
