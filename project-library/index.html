@@ -19,16 +19,16 @@
             <form action="">
                 <p>Input book details</p>
                 <div class="inputs">
-                    <input type="text" placeholder="Title">
-                    <input type="text" placeholder="Author">
-                    <input type="number" placeholder="Pages">
+                    <input id="title" type="text" placeholder="Title" required>
+                    <input id="author" type="text" placeholder="Author" required>
+                    <input id="pages" type="number" placeholder="Pages" required>
                 </div>
                 <div class="checkbox">
                     <label for="isRead">Have read<input type="checkbox" id="isRead" name="isRead"></label>
                 </div>
                 <div class="btn-group">
                     <button class="btn btn-cancel">Cancel</button>
-                    <button class="btn btn-submit">Submit</button>
+                    <button type="submit" class="btn btn-submit" id="submit">Submit</button>
                 </div>
                 
             </form>
