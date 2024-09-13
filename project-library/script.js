@@ -1,17 +1,4 @@
-const myBooks = [
-    {
-    title: "Book Title",
-    author: "The Author",
-    pages: "123",
-    isRead: true,
-    },
-    {
-        title: "Book2",
-        author: "Author2",
-        pages: 100,
-        isRead: false,
-    }
-];
+const myBooks = [];
 
 class Library{
     constructor(title, author, pages, isRead){
