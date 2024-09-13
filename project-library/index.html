@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Library</title>
+    <title>myLibrary</title>
 </head>
 <body>
     <header class="header">
@@ -22,19 +22,19 @@
                     <input id="title" type="text" placeholder="Title" required>
                     <input id="author" type="text" placeholder="Author" required>
                     <input id="pages" type="number" placeholder="Pages" required>
-                </div>
-                <div class="checkbox">
                     <label for="isRead">Have read<input type="checkbox" id="isRead" name="isRead"></label>
                 </div>
+                <div class="checkbox">
+                    
+                </div>
                 <div class="btn-group">
-                    <button class="btn btn-cancel">Cancel</button>
                     <button type="submit" class="btn btn-submit" id="submit">Submit</button>
                 </div>
-                
             </form>
         </div>
         <div class="overlay hidden"></div>
         <button class="btn" id="btn-add">Add Book</button>
+        <div id="bookContainer"></div>
     </main>
 </body>
 <script src="script.js"></script>

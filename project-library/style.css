@@ -29,7 +29,7 @@ body{
 .btn{
     display: flex;
     justify-content: center;
-    width: 8vw;
+    width: 10rem;
     padding: 10px;
     background-color: transparent;
     border: solid grey 2px;
@@ -107,3 +107,39 @@ form > .btn{
 .hidden{
     display: none;
 }
+
+.bookCard{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 3em;
+    /* max-width: 200px; */
+    height: 10rem;
+    width: 20em;
+}
+
+.cardDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-isRead{
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    padding: 10px;
+    color: white;
+    background-color: rgb(65, 132, 65);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .btn-isRead:hover{
+    background-color: rgb(35, 128, 35);
+    color: white;
+} */
